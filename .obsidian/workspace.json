@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup redis server on ubuntu/Readme.md",
+                "file": "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Setup redis server on ubuntu/Readme.md",
+                "file": "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setup redis server on ubuntu/Readme.md",
+                "file": "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup redis server on ubuntu/Readme.md"
+                "file": "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.md"
               }
             }
           }
@@ -147,5 +147,9 @@
     }
   },
   "active": "08ab9ec84d06367e",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.pdf",
+    "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.md",
+    "Setup redis server on ubuntu/Readme.md"
+  ]
 }

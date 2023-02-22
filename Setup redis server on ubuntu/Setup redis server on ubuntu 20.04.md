@@ -124,6 +124,30 @@ $ sudo systemctl restart redis.service
 ```
 
 检查密码是否正常：
+使用 redis-cli 连接到 Redis 服务
+```
+$ redis-cli
+```
+使用 set 指令测试
+```
+127.0.0.1：6379> set test_01 "test password"
+```
+若设置的密码生效，会提示 `(error) NOAUTH Authentication required.`
+使用 auth 指令 进行与授权验证
+```
+127.0.0.1：6379> auth "密码"
+```
+若成功会提示 `OK.
+重新使用 set 指令测试
+```
+127.0.0.1：6379> set test_01 "test password"
+```
+使用 get 指令测试:
+```
+127.0.0.1：6379> get test_01 
+```
+正常情况下，能看到 test_01 的值。
+
 ![[Pasted image 20230220144435.png]]
 
 ## 安装 fastify-redis
@@ -137,10 +161,10 @@ $npm ls fastify
 ![[Pasted image 20230220171433.png]]
 出自 https://security.snyk.io/package/npm/fastify
 
-故选择 `fastify-redis` 的 `V4.4.4` 版本。
+故选择 `fastify-redis` 的 `V5.0.0` 版本。
 在 InstaBIS 中安装 `fastify-redis`:
 ```
-$ npm i fastify-redis@4.4.0
+$ npm i @fastify/redis@5.0.0
 ```
 
 
