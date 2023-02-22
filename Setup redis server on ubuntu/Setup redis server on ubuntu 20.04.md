@@ -1,4 +1,4 @@
-## Reids 的安装与配置
+## Redis 的安装与配置
 升级本地的 apt package cache:
 ```
 $ sudo apt update
@@ -167,6 +167,16 @@ $npm ls fastify
 $ npm i @fastify/redis@5.0.0
 ```
 
+
+## 命令汇总
+```
+sudo apt update //升级本地 apt package cache
+sudo apt install redis-server // 安装 Redis
+sudo vim /etc/redis/redis.conf // 编辑redis 配置文件
+sudo systemctl restart redis.service // 重启 redis 服务
+sudo systemctl status redis //查看 redis 运行状态
+redis-cli // 客户端工具
+```
 
 ## 参考
 [Getting started with Redis](https://redis.io/docs/getting-started/)

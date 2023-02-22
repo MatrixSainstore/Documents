@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "2640622ef46fa26a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d5eeb42b012b5be7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08ab9ec84d06367e",
+  "active": "d5eeb42b012b5be7",
   "lastOpenFiles": [
     "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.pdf",
     "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.md",
