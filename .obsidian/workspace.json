@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setup redis server on ubuntu/测试.md",
+                "file": "Setup redis server on ubuntu/测试反馈.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Setup redis server on ubuntu/测试.md",
+                "file": "Setup redis server on ubuntu/测试反馈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setup redis server on ubuntu/测试.md",
+                "file": "Setup redis server on ubuntu/测试反馈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setup redis server on ubuntu/测试.md"
+                "file": "Setup redis server on ubuntu/测试反馈.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "e0ebe3bd88a42e7a",
   "lastOpenFiles": [
     "Setup redis server on ubuntu/images/Pasted image 20230223104412.png",
-    "Setup redis server on ubuntu/测试.md",
+    "Setup redis server on ubuntu/测试反馈.md",
     "Pasted image 20230223103458.png.md",
     "Setup redis server on ubuntu/Setup redis server on ubuntu 20.04.md",
     "Setup redis server on ubuntu/images/Pasted image 20230223103458.png",
